@@ -17,16 +17,12 @@ The program generates text based on the specified grammar using a mutually recur
 The primary functionality of this project is achieved through the following components:
 
 1. **Grammar Representation**:
-   - **Files**: `grammar.py`
+   - **Files**: `grammar_objects.py`
    - **Description**: Ability to represent grammars using Python classes, facilitating the generation of text based on the specified grammar.
 
 2. **Random Text Generation**:
-   - **Files**: `random_text_generator.py`
+   - **Files**: `sentence_generator.py, grammar_file_parser.py, project4.py`
    - **Description**: Implementing a mutually recursive algorithm to generate random text from the provided grammar. The program randomly selects options from the grammar's rules, creating sequences of terminals that form text.
-
-3. **Testability Enhancement**:
-   - **Files**: `test_doubles.py`
-   - **Description**: Utilizing test doubles to improve testability, especially when dealing with input/output operations, allowing effective testing of the program's functionalities.
 
 ## Design Requirements
 
