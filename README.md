@@ -12,6 +12,22 @@ A grammar comprises substitution rules dictating how symbols can be replaced wit
 
 The program generates text based on the specified grammar using a mutually recursive algorithm. It randomly selects options from the grammar's rules, creating sequences of terminals that form text. The process involves generating text fragments and combining them to form complete text.
 
+## Project Functionality
+
+The primary functionality of this project is achieved through the following components:
+
+1. **Grammar Representation**:
+   - **Files**: `grammar.py`
+   - **Description**: Ability to represent grammars using Python classes, facilitating the generation of text based on the specified grammar.
+
+2. **Random Text Generation**:
+   - **Files**: `random_text_generator.py`
+   - **Description**: Implementing a mutually recursive algorithm to generate random text from the provided grammar. The program randomly selects options from the grammar's rules, creating sequences of terminals that form text.
+
+3. **Testability Enhancement**:
+   - **Files**: `test_doubles.py`
+   - **Description**: Utilizing test doubles to improve testability, especially when dealing with input/output operations, allowing effective testing of the program's functionalities.
+
 ## Design Requirements
 
 - Represent the grammar using Python classes, enabling the generation of text.
