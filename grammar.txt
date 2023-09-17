@@ -1,0 +1,27 @@
+Random junk you dont wanna add
+
+{
+HowIsBoo
+1 Boo is [Adjective] today
+1 Boo will [Verb] today
+}
+
+{
+Adjective
+3 happy
+3 perfect
+1 relaxing
+1 fulfilled
+2 excited
+0 sad
+}
+
+{
+Verb
+2 run
+2 jump
+1 swim
+3 eat
+2 bark
+4 sleep
+}
